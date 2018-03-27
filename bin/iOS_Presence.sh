@@ -22,4 +22,4 @@ for i in ${DEVICES[@]}; do
         OUTPUT+=('0')
     fi
 done
-echo ${OUTPUT[@]} `date`
+echo ${OUTPUT[@]} `date +%s`
